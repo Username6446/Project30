@@ -87,7 +87,6 @@ Queue<T>& Queue<T>::operator=(Queue&& other) noexcept
 template<typename T>
 Queue<T>::~Queue()
 {
-    cout << "[Dtor] " << this << endl;
     delete[] p;
 }
 
